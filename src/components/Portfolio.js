@@ -7,15 +7,16 @@ import Contact from './Contact'
 import Certificate from './Certificate'
 
 const Portfolio = () => {
+
   return (
     <>
-      <div>
-          <AboutMe/>
+      <div className='rrr'>
+          {/* <AboutMe/> */}
           <HeroSection/>
-          <Skills/>
+          {/* <Skills/>
           <Experience/>
           <Contact/>
-          <Certificate/>
+          <Certificate/> */}
       </div>
     </>
   )

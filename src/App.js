@@ -15,8 +15,6 @@ import Certificate from './components/Certificate';
 
 
 
-
-
 function App() {
   
  
@@ -29,7 +27,8 @@ function App() {
 
           <Route index element={<Portfolio />} />
           <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Experience" element={<Experience />} >
+          {/* <Route path="/Layout" element={<Layout />} /> */}
+          <Route path="Experience" element={<Experience />} >
           <Route path="HeroSection" element={<HeroSection />} />
           <Route path="Skills" element={<Skills/>} />
           <Route path="Certificate" element={<Certificate />} />
