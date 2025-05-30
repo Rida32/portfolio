@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import { DataProvider } from './components/common/AppContext';
 import SnakBar from './components/common/SnakBar';
 import Certificate from './components/Certificate';
+import Layout from './components/common/Layout';
 
 
 
@@ -26,8 +27,8 @@ function App() {
         <Routes>
 
           <Route index element={<Portfolio />} />
+          <Route path="/" element={<Layout />} />
           <Route path="/AboutMe" element={<AboutMe />} />
-          {/* <Route path="/Layout" element={<Layout />} /> */}
           <Route path="Experience" element={<Experience />} >
           <Route path="HeroSection" element={<HeroSection />} />
           <Route path="Skills" element={<Skills/>} />
